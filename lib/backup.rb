@@ -109,6 +109,7 @@ module Backup
     autoload :PagerDuty, File.join(NOTIFIER_PATH, "pagerduty")
     autoload :Pushover,  File.join(NOTIFIER_PATH, "pushover")
     autoload :Slack,     File.join(NOTIFIER_PATH, "slack")
+    autoload :Telegram,  File.join(NOTIFIER_PATH, "telegram")
     autoload :HttpPost,  File.join(NOTIFIER_PATH, "http_post")
     autoload :Nagios,    File.join(NOTIFIER_PATH, "nagios")
     autoload :FlowDock,  File.join(NOTIFIER_PATH, "flowdock")
